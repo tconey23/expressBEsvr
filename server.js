@@ -185,7 +185,7 @@ app.locals.metalBands = [
     }
 ]
 
-app.set('port', process.env.PORT || 3000)
+app.set('port', process.env.PORT || 3001)
 app.locals.title = '90sMetalBands'
 
 app.get('/api/v1/90sMetalBands/', (request, response) => {
